@@ -3,7 +3,7 @@ title: "The Informational Universe: A Synthesis of Holographic Bounds, Thermodyn
 author: "QNFO Research"
 date: "2026-07-21"
 license: "QNFO Unified License Agreement (QNFO-ULA)"
-doi: "TBD-ZENODO"
+doi: "10.5281/zenodo.21480126"
 status: "draft"
 bibliography: artifacts/refs.bib
 ---
