@@ -1,0 +1,13 @@
+{
+    "latest_deposit_id":  null,
+    "versions":  [
+                     {
+                         "doi":  "TBD-ZENODO",
+                         "published_at":  "2026-07-21",
+                         "status":  "draft",
+                         "tag":  "v1.0",
+                         "deposit_id":  null
+                     }
+                 ],
+    "concept_doi":  "10.5281/zenodo.21192543"
+}

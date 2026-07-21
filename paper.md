@@ -36,9 +36,9 @@ This paper adopts interpretation (2) as its core framework and treats (3) as a s
 
 Following the Phase 0 reformulation from the parent project "Correlated Universe 1.0" [PROJECT-PLAN.md, 2026-07-21], the core claim under evaluation is:
 
-> "Entanglement entropy in any finite region of spacetime is fully determined by a finite-dimensional Hilbert space whose dimension is bounded by \(\exp(A/4\ell_P^2)\), where \(A\) is the region's boundary area. No physical observable requires more than this many independent bits — and physical laws governing those observables are constrained by this bound."
+> "Entanglement entropy in any finite region of spacetime is fully determined by a finite-dimensional Hilbert space whose dimension is bounded by $\exp(A/4\ell_{P}^{2})$, where $A$ is the region's boundary area. No physical observable requires more than this many independent bits — and physical laws governing those observables are constrained by this bound."
 
-**Falsification condition:** If entanglement entropy in a region of boundary area \(A\) is measured (or theoretically derived) to EXCEED \(A/4\ell_P^2\) in Planck units, the core claim is falsified. This condition is [speculative] in that no experiment currently probes the Planck scale, but it is logically precise.
+**Falsification condition:** If entanglement entropy in a region of boundary area $A$ is measured (or theoretically derived) to EXCEED $A/4\ell_{P}^{2}$ in Planck units, the core claim is falsified. This condition is [speculative] in that no experiment currently probes the Planck scale, but it is logically precise.
 
 ### 1.3 Structure of This Paper
 
@@ -58,7 +58,7 @@ Following the Phase 0 reformulation from the parent project "Correlated Universe
 
 ### 2.1 Bekenstein's Bound and Black Hole Thermodynamics
 
-The empirical anchor of the informational-universe framework is black hole thermodynamics. Bekenstein [@bekenstein1973black] proposed that black holes carry entropy proportional to their horizon area: \(S_{BH} = A/4\ell_P^2\). Hawking [@hawking1975particle] showed that black holes radiate with a temperature \(T = \kappa/2\pi\), confirming the thermodynamic interpretation. Together, these results establish that a region of spacetime bounded by a horizon of area \(A\) contains at most \(\exp(A/4\ell_P^2)\) independent quantum states — the Bekenstein bound in its strongest form [@page2018bekenstein; @bousso2002holographic].
+The empirical anchor of the informational-universe framework is black hole thermodynamics. Bekenstein [@bekenstein1973black] proposed that black holes carry entropy proportional to their horizon area: $S_{BH} = A/4\ell_{P}^2$. Hawking [@hawking1975particle] showed that black holes radiate with a temperature $T = \kappa/2\pi$, confirming the thermodynamic interpretation. Together, these results establish that a region of spacetime bounded by a horizon of area $A$ contains at most $\exp(A/4\ell_{P}^2)$ independent quantum states — the Bekenstein bound in its strongest form [@page2018bekenstein; @bousso2002holographic].
 
 **Certainty:** [established]. Black hole thermodynamics is among the most secure results in theoretical physics, resting on the intersection of general relativity and quantum field theory.
 
@@ -71,13 +71,13 @@ Bousso [@bousso2002holographic] generalized the Bekenstein bound to arbitrary sp
 - **Proven** for weakly gravitating systems (the "Bekenstein bound" regime) [established]
 - **Conjectured** for strongly gravitating, dynamical spacetimes [speculative]
 
-The bound has survived numerous attempted counterexamples [@bousso2002holographic]. No physically reasonable system has been shown to violate it by more than an \(O(1)\) factor.
+The bound has survived numerous attempted counterexamples [@bousso2002holographic]. No physically reasonable system has been shown to violate it by more than an $O(1)$ factor.
 
-**What this implies:** If the covariant entropy bound holds universally, then the holographic principle is not an AdS/CFT-specific property — it is a general feature of any quantum theory of gravity. The map/territory distinction is important: the bound constrains *how much* a physical system can be described with \(N\) bits; it does not assert that those bits ARE the physical system. That latter claim belongs to §7 and is flagged [PHILOSOPHY].
+**What this implies:** If the covariant entropy bound holds universally, then the holographic principle is not an AdS/CFT-specific property — it is a general feature of any quantum theory of gravity. The map/territory distinction is important: the bound constrains *how much* a physical system can be described with $N$ bits; it does not assert that those bits ARE the physical system. That latter claim belongs to §7 and is flagged [PHILOSOPHY].
 
 ### 2.3 AdS/CFT: A Concrete Realization
 
-Maldacena's AdS/CFT correspondence [@maldacena1999large] provides the most rigorous realization of the holographic principle: a \((d+1)\)-dimensional theory of quantum gravity in anti-de Sitter space is exactly equivalent to a \(d\)-dimensional conformal field theory on its boundary. This is a mathematical duality — not merely a bound but an identity. However:
+Maldacena's AdS/CFT correspondence [@maldacena1999large] provides the most rigorous realization of the holographic principle: a $(d+1)$-dimensional theory of quantum gravity in anti-de Sitter space is exactly equivalent to a $d$-dimensional conformal field theory on its boundary. This is a mathematical duality — not merely a bound but an identity. However:
 
 **Limitation [debated]:** AdS/CFT is proven for AdS geometries, which have negative cosmological constant. Our universe has a positive cosmological constant. Whether holography extends to de Sitter space is an open question [@witten2001quantum; @strominger2001ds].
 
@@ -89,13 +89,13 @@ Maldacena's AdS/CFT correspondence [@maldacena1999large] provides the most rigor
 
 ### 3.1 Jacobson's Derivation
 
-In a remarkable 1995 paper, Jacobson [@jacobson1995thermodynamics] showed that the Einstein field equations follow from the proportionality of entropy to horizon area, together with the Clausius relation \(\delta Q = T dS\), applied to local Rindler horizons. The derivation requires only:
+In a remarkable 1995 paper, Jacobson [@jacobson1995thermodynamics] showed that the Einstein field equations follow from the proportionality of entropy to horizon area, together with the Clausius relation $\delta Q = T dS$, applied to local Rindler horizons. The derivation requires only:
 
 1. The entropy of any local Rindler horizon is proportional to its area (Bekenstein's insight, generalized)
 2. Energy flux across the horizon obeys thermodynamic relations
 3. Spacetime is described by a Lorentzian metric
 
-From these premises, Jacobson derived \(R_{\mu\nu} - \frac{1}{2}R g_{\mu\nu} = 8\pi G T_{\mu\nu}\) — the full Einstein equations. The cosmological constant emerges as an integration constant.
+From these premises, Jacobson derived $R_{\mu\nu} - \frac{1}{2}R g_{\mu\nu} = 8\pi G T_{\mu\nu}$ — the full Einstein equations. The cosmological constant emerges as an integration constant.
 
 **Certainty:** [mainstream interpretation]. The derivation is mathematically sound. The interpretive question is whether this shows that gravity IS thermodynamic (emergent), or merely that Einstein's equations CAN BE expressed in thermodynamic language (descriptive). We take no position on this interpretive question — the framework works either way.
 
@@ -103,9 +103,9 @@ From these premises, Jacobson derived \(R_{\mu\nu} - \frac{1}{2}R g_{\mu\nu} = 8
 
 The Jacobson derivation has been extended via the entanglement first law [@blanco2013entanglement; @lin2014entanglement]. For any spatial region, the variation of entanglement entropy satisfies:
 
-\[\delta S_{EE} = \delta \langle H_{mod} \rangle\]
+$$\delta S_{EE} = \delta \langle H_{mod} \rangle$$
 
-where \(H_{mod}\) is the modular Hamiltonian. In the semi-classical limit, this becomes the gravitational first law, and Einstein's equations emerge as the consistency condition. This connects the entanglement-based picture of §4 with the thermodynamic derivation.
+where $H_{mod}$ is the modular Hamiltonian. In the semi-classical limit, this becomes the gravitational first law, and Einstein's equations emerge as the consistency condition. This connects the entanglement-based picture of §4 with the thermodynamic derivation.
 
 ### 3.3 Padmanabhan's Perspective: Gravity as an Emergent Phenomenon
 
@@ -135,9 +135,9 @@ The informational-universe framework takes Jacobson's result as evidence for tie
 
 Ryu and Takayanagi [@ryu2006holographic] proposed that in AdS/CFT, the entanglement entropy of a boundary region equals the area of a minimal surface in the bulk:
 
-\[S_{EE}(A) = \frac{\text{Area}(\gamma_A)}{4G_N}\]
+$$S_{EE}(A) = \frac{\text{Area}(\gamma_A)}{4G_N}$$
 
-where \(\gamma_A\) is the minimal surface homologous to region \(A\) on the boundary. This formula, later proven by Lewkowycz and Maldacena, establishes a precise, quantitative relationship between entanglement on the boundary and geometry in the bulk.
+where $\gamma_A$ is the minimal surface homologous to region $A$ on the boundary. This formula, later proven by Lewkowycz and Maldacena, establishes a precise, quantitative relationship between entanglement on the boundary and geometry in the bulk.
 
 **Certainty:** [established] within AdS/CFT. The formula has passed numerous consistency checks and reproduces known results.
 
@@ -171,9 +171,9 @@ Maldacena and Susskind [@maldacena2013cool] conjectured that Einstein-Rosen brid
 
 ### 5.1 Bao-Carroll-Singh: "Locally Finite-Dimensional"
 
-In a bold conjecture, Bao, Carroll, and Singh [@bao2017hilbert] argued that the Hilbert space of quantum gravity is locally finite-dimensional — in any finite region of spacetime, the dimension of the Hilbert space is finite and bounded by \(\exp(A/4G\hbar)\). Their key arguments:
+In a bold conjecture, Bao, Carroll, and Singh [@bao2017hilbert] argued that the Hilbert space of quantum gravity is locally finite-dimensional — in any finite region of spacetime, the dimension of the Hilbert space is finite and bounded by $\exp(A/4G\hbar)$. Their key arguments:
 
-1. **Bekenstein bound**: Any region of area \(A\) has at most \(\sim\exp(A/4\ell_P^2)\) independent quantum states
+1. **Bekenstein bound**: Any region of area $A$ has at most $\sim\exp(A/4\ell_{P}^{2})$ independent quantum states
 2. **No infinite entanglement**: In local quantum field theory, entanglement entropy between a region and its complement diverges (the "UV catastrophe") — but with a short-distance cutoff at Planck scale, this divergence is regulated
 3. **Black hole complementarity**: The black hole interior is not an independent region of Hilbert space — it is encoded in the exterior's degrees of freedom
 
@@ -183,7 +183,7 @@ In a bold conjecture, Bao, Carroll, and Singh [@bao2017hilbert] argued that the 
 
 The standard framework of quantum field theory in curved spacetime [@birrell1984quantum] assumes an infinite-dimensional Hilbert space. The Unruh effect (accelerated observers see a thermal bath), Hawking radiation, and inflationary perturbations are all derived in this framework and have passed empirical tests. If the Hilbert space dimension is finite, QFT in curved spacetime must be an effective description valid only below the cutoff — but WHERE the cutoff lies matters enormously.
 
-**The challenge:** If the cutoff is at the Planck scale (\(\sim 10^{19}\) GeV), QFT's predictions are effectively unchanged for all experimentally accessible energies. The finite-dimensional constraint becomes operationally vacuous. The constraint becomes meaningful only if:
+**The challenge:** If the cutoff is at the Planck scale ($\sim 10^{19}$ GeV), QFT's predictions are effectively unchanged for all experimentally accessible energies. The finite-dimensional constraint becomes operationally vacuous. The constraint becomes meaningful only if:
 - (a) The cutoff is lower than expected (e.g., at TeV scale, as in some large-extra-dimension scenarios), OR
 - (b) The finite-dimensional structure generates specific, observable deviations from QFT predictions
 
@@ -191,7 +191,7 @@ Neither condition is currently met. **The informational-universe framework must 
 
 ### 5.3 Page's Bekenstein Bound Analysis
 
-Page [@page2018bekenstein] provides an authoritative review of the Bekenstein bound: \(S \le 2\pi RE/\hbar c\). He emphasizes that the bound is a "loose" inequality — saturating it requires extreme conditions (black holes). For ordinary matter, the actual entropy is far below the bound. This means the finite-dimensional constraint, while logically valid, does not constrain most physical systems in a computationally meaningful way.
+Page [@page2018bekenstein] provides an authoritative review of the Bekenstein bound: $S \le 2\pi RE/\hbar c$. He emphasizes that the bound is a "loose" inequality — saturating it requires extreme conditions (black holes). For ordinary matter, the actual entropy is far below the bound. This means the finite-dimensional constraint, while logically valid, does not constrain most physical systems in a computationally meaningful way.
 
 **Nevertheless:** The existence of the bound, even if loose, is a structural constraint on the theory. It tells us that physical Hilbert space is NOT the full infinite-dimensional space that naive QFT would suggest. The finite dimension is enormous — but "enormous but finite" and "infinite" are different types, with different mathematical properties. This type distinction matters for the ultimate theory of quantum gravity.
 
@@ -228,7 +228,7 @@ The Chiribella and Hardy derivations reconstruct QUANTUM MECHANICS from informat
 If the Jacobson-thermodynamic program (§3) is correct, gravity is constrained by thermodynamics and entropy bounds. If the Chiribella program is correct, quantum mechanics is constrained by information-theoretic axioms. The logical next step is to ask whether a unified set of information-theoretic principles can constrain BOTH quantum dynamics and gravitational dynamics simultaneously.
 
 **Candidate principles for a unified framework:**
-1. The Hilbert space dimension of any region is \(\exp(A/4\ell_P^2)\) (holographic bound)
+1. The Hilbert space dimension of any region is $\exp(A/4\ell_{P}^2)$ (holographic bound)
 2. Quantum evolution is unitary (probability conservation)
 3. Local observers experience approximately Minkowski spacetime (equivalence principle)
 4. Entropy satisfies the second law (thermodynamic consistency)
@@ -292,7 +292,7 @@ This paper has significant limitations that we document explicitly:
 
 4. **Descriptive vs. explanatory ambiguity.** Jacobson's derivation shows that Einstein's equations *can be derived* from thermodynamic constraints — not that they *must be*. The framework is consistent with both emergent gravity and fundamental gravity + thermodynamic description.
 
-5. **Finite-dim constraint is operationally vacuous.** The Hilbert space dimension \(\sim\exp(10^{122})\) for the observable universe is finite but so large that no computation can distinguish it from infinite. The constraint matters structurally but not computationally.
+5. **Finite-dim constraint is operationally vacuous.** The Hilbert space dimension $\sim\exp(10^{122})$ for the observable universe is finite but so large that no computation can distinguish it from infinite. The constraint matters structurally but not computationally.
 
 6. **Self-citation risk.** Much of the QNFO literature on which this paper builds remains internal (Vectorize-confined corpus). This is a [CONFIRMATION-BIAS-RISK] — the framework's logical coherence has been demonstrated only within its own ecosystem, not validated by the broader physics community (see CR-5).
 
